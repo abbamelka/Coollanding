@@ -14,13 +14,15 @@ const navlinks = [
   "Contact",
 ];
 const Header = () => {
-  const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
   const [navBarScrolled, setNavBarScrolled] = useState(false);
   const handleResize = () => {
     if (window.innerWidth >= 992) {
       setIsOpen(false);
     }
   };
+  
+  
   const changeBackground = () => {
     if (window.scrollY >= 50) {
       setNavBarScrolled(true);
@@ -47,8 +49,10 @@ const Header = () => {
       <Navbar>
         <Container>
           <Link to="home" smooth>
-            <Navbar.Brand>AM</Navbar.Brand>
+            <Navbar.Brand>Cool Fashion</Navbar.Brand>
           </Link>
+          
+          
           <Nav className={`ms-auto${isOpen ? " nav-links-container" : ""}`}>
             <MdClose
               className="d-block d-lg-none close-icon"
@@ -69,7 +73,9 @@ const Header = () => {
                 {link}
               </Link>
             ))}
+            
           </Nav>
+          
           <Nav className="ms-auto d-flex d-lg-none">
             <HiOutlineMenu
               className="menu-icon"

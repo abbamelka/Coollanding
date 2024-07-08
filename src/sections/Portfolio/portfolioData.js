@@ -7,7 +7,7 @@ import portfolioImg6 from "../../assets/portfolio-6.jpg";
 import portfolioImg7 from "../../assets/portfolio-7.jpg";
 import portfolioImg8 from "../../assets/portfolio-8.jpg";
 import portfolioImg9 from "../../assets/portfolio-9.jpg";
-
+import portfolioImg10 from "../../assets/portfolio-10.jpg";
 const portfolioItems = [
   {
     id: 1,
@@ -85,6 +85,15 @@ const portfolioItems = [
   {
     id: 9,
     img: portfolioImg9,
+    category: "desktop",
+    title: "desktop2",
+    description: "second desktop app",
+    width: 1080,
+    height: 620,
+  },
+  {
+    id: 10,
+    img: portfolioImg10,
     category: "desktop",
     title: "desktop2",
     description: "second desktop app",

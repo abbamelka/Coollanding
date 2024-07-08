@@ -13,6 +13,7 @@ function App() {
       <ThemeProvider theme={{theme}}>
         <GlobalStyles />
         <Landing />
+       {console.log("Hello World")}
       </ThemeProvider>
     </>
   );

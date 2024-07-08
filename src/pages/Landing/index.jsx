@@ -11,7 +11,6 @@ import Pricing from "../../sections/Pricing";
 import Team from "../../sections/Team";
 import Contact from "../../sections/Contact";
 import ToggleThemeButton from "../../components/ToggleThemeButton";
-
 const Landing = () => {
   return (
     <>
